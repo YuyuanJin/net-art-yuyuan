@@ -1,6 +1,3 @@
 # net-art-yuyuan
 
-
-
-# VSC shortcuts
-Format Code: Shift + Option + F
+[My Net Art Page: https://yuyuanjin.github.io/net-art-yuyuan/](https://yuyuanjin.github.io/net-art-yuyuan/)
