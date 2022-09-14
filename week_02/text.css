@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'myFont';
+    font-weight: 150;
+    src: url('./assets/font/Sprat-Variable.ttf') format('truetype');
+}
+
+
+body {
+
+    width: 1000px;
+    margin: auto;
+    margin-top: 40px;
+
+    background-color: #ffffff;
+
+    font-family: myFont;
+
+
+    color: #FB5A00;
+    line-height: 2.2;
+    
+}
+
+
+h1 {
+    color: #000000;
+
+}
+
+ul{list-style-type: circle;}
+
+a{
+    color:#666666;
+}
+
+.back {
+    color: #000000;
+}
+
+
+
