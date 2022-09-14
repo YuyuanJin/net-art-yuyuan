@@ -18,7 +18,7 @@ body {
 
     color: #FB5A00;
     line-height: 2.2;
-    
+
 }
 
 
@@ -27,15 +27,14 @@ h1 {
 
 }
 
-ul{list-style-type: circle;}
+ul {
+    list-style-type: circle;
+}
 
-a{
-    color:#666666;
+a {
+    color: #666666;
 }
 
 .back {
     color: #000000;
 }
-
-
-
