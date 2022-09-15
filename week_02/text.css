@@ -6,25 +6,18 @@
 
 
 body {
-
     width: 1000px;
     margin: auto;
     margin-top: 40px;
-
     background-color: #ffffff;
-
     font-family: myFont;
-
-
     color: #FB5A00;
     line-height: 2.2;
-
 }
 
 
 h1 {
     color: #000000;
-
 }
 
 ul {
@@ -35,6 +28,72 @@ a {
     color: #666666;
 }
 
+a:hover{
+    color:#FB5A00;
+    perspective: 400px;
+    transition: transform 2s;
+    transform: rotateX(40deg);
+    transform: scale(2);
+}
+
 .back {
     color: #000000;
+}
+
+
+img{
+    display: inline-block;
+    /* width: 200px; */
+    animation: cloudy-move 2s infinite;
+    animation: undefined-easeInBounce 4s infinite;
+}
+
+
+@keyframes cloudy-move{
+    0%{transform: translateX(-500px);}
+    100%{transform: translateX(200px);}
+}
+
+
+@keyframes undefined-easeInBounce {
+	0% {
+		transform: translateX(0%);
+	}
+
+	4% {
+		transform: translateX(-1.54%);
+	}
+
+	8% {
+		transform: translateX(-0.66%);
+	}
+
+	18% {
+		transform: translateX(-6.25%);
+	}
+
+	26% {
+		transform: translateX(-1.63%);
+	}
+
+	46% {
+		transform: translateX(-24.98%);
+	}
+
+	64% {
+		transform: translateX(-1.99%);
+	}
+
+	76% {
+		transform: translateX(-56.44%);
+	}
+
+	88% {
+		transform: translateX(-89.11%);
+	}
+
+	100% {
+		transform: translateX(-100%);
+	}
+
 }
