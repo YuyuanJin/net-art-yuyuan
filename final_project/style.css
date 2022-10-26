@@ -1,0 +1,128 @@
+div {
+	background-color: white;
+}
+
+body {
+	color: #212121;
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 500;
+}
+
+div.ele {
+	text-align: right;
+	font-size: 16px;
+	vertical-align: bottom;
+}
+
+div.footer {
+	text-align: center;
+	font-size: 12px;
+}
+
+div.space {
+	margin-top: 80px;
+}
+div.space-sm {
+	margin-top: 20px;
+}
+div.space-lg {
+	margin-top: 160px;
+}
+
+div.ch {
+	font-family: source-han-serif-sc, serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+div.en {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 400px;
+}
+
+span.ch{
+	font-family: source-han-serif-sc, serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+span.en{
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 400px;
+}
+
+div.image{
+	height: 200px;
+	overflow:hidden;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+	color: black;
+	text-decoration: underline;
+}
+
+a.underline{
+	color: black;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+/* dm-sans-regular - latin */
+@font-face {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''),
+		url('./assets/fonts/dm-sans-v11-latin-regular.woff2') format('woff2'),
+		/* Chrome 26+, Opera 23+, Firefox 39+ */
+		url('./assets/fonts/dm-sans-v11-latin-regular.woff') format('woff');
+	/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* dm-sans-500 - latin */
+@font-face {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 500;
+	src: local(''),
+		url('./assets/fonts/dm-sans-v11-latin-500.woff2') format('woff2'),
+		/* Chrome 26+, Opera 23+, Firefox 39+ */
+		url('./assets/fonts/dm-sans-v11-latin-500.woff') format('woff');
+	/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* dm-sans-700 - latin */
+@font-face {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: local(''),
+		url('./assets/fonts/dm-sans-v11-latin-700.woff2') format('woff2'),
+		/* Chrome 26+, Opera 23+, Firefox 39+ */
+		url('./assets/fonts/dm-sans-v11-latin-700.woff') format('woff');
+	/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
